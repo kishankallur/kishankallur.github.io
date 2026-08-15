@@ -1,73 +1,403 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Your Name | VLSI Design & Technology</title>
+    <title>Kishan Kallur | VLSI Design & Technology</title>
+
+    <meta name="description"
+          content="Portfolio of Kishan Kallur, a VLSI Design and Technology undergraduate passionate about RTL design, SystemVerilog, FPGA, embedded systems and semiconductor design.">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Your Name</h1>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
 
-        <p>
-            VLSI Design & Technology Undergraduate
-        </p>
+            <a href="#home" class="logo">KK<span>.</span></a>
 
-        <p>
-            RTL • SystemVerilog • FPGA • Embedded Systems • PCB Design
-        </p>
-    </header>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
 
-    <section>
-        <h2>About Me</h2>
+        </div>
+    </nav>
 
-        <p>
-            I’m a 3rd-year VLSI Design and Technology undergraduate
-            from India, passionate about semiconductor design,
-            digital hardware, embedded systems and RTL development.
-        </p>
-    </section>
 
-    <section>
-        <h2>Projects</h2>
+    <!-- Hero -->
+    <section id="home" class="hero">
 
-        <div>
-            <h3>LoRa Thermal Telemetry</h3>
-            <p>
-                Real-time PT100 temperature monitoring using
-                MAX31865, ESP32-S3 and LoRa.
+        <div class="hero-content">
+
+            <p class="tag">VLSI DESIGN & TECHNOLOGY</p>
+
+            <h1>
+                Building at the
+                <span>hardware level.</span>
+            </h1>
+
+            <p class="hero-description">
+                I'm a 3rd-year VLSI Design and Technology undergraduate
+                passionate about semiconductor design, RTL, embedded systems,
+                and digital hardware.
             </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary">
+                    View Projects
+                </a>
+
+                <a href="https://github.com/kishankallur"
+                   target="_blank"
+                   class="btn secondary">
+                    GitHub ↗
+                </a>
+
+            </div>
+
         </div>
 
-        <div>
-            <h3>OCP Meter</h3>
-            <p>
-                Embedded Open Circuit Potential measurement system
-                with custom PCB and real-time OLED monitoring.
-            </p>
+        <div class="hero-card">
+
+            <div class="terminal-top">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="terminal">
+
+                <p><span class="green">const</span> engineer = {</p>
+
+                <p class="indent">
+                    name: <span class="orange">"Kishan Kallur"</span>,
+                </p>
+
+                <p class="indent">
+                    field: <span class="orange">"VLSI"</span>,
+                </p>
+
+                <p class="indent">
+                    focus: <span class="orange">"RTL Design"</span>,
+                </p>
+
+                <p class="indent">
+                    tools: [
+                </p>
+
+                <p class="indent2">
+                    <span class="orange">"Verilog"</span>,
+                    <span class="orange">"SystemVerilog"</span>,
+                </p>
+
+                <p class="indent2">
+                    <span class="orange">"FPGA"</span>,
+                    <span class="orange">"Embedded"</span>
+                </p>
+
+                <p class="indent">
+                    ]
+                </p>
+
+                <p>};</p>
+
+                <p class="cursor">_</p>
+
+            </div>
+
         </div>
+
     </section>
 
-    <section>
-        <h2>Skills</h2>
+
+    <!-- About -->
+    <section id="about" class="section">
+
+        <div class="section-title">
+            <p>01</p>
+            <h2>About Me</h2>
+        </div>
+
+        <div class="about-content">
+
+            <p>
+                I'm a <strong>3rd-year VLSI Design and Technology
+                undergraduate from India</strong>, interested in the design
+                and development of digital hardware and semiconductor systems.
+            </p>
+
+            <p>
+                I enjoy working with RTL design, SystemVerilog, FPGA-based
+                systems, microcontrollers, PCB development and real-time
+                embedded applications.
+            </p>
+
+            <p>
+                Currently, I'm strengthening my skills through hands-on
+                projects while exploring <strong>ASIC design, RTL design,
+                verification and semiconductor technologies.</strong>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+
+        <div class="section-title">
+            <p>02</p>
+            <h2>Technical Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-number">01</div>
+                <h3>VLSI & RTL</h3>
+                <p>
+                    Verilog, SystemVerilog, RTL Design, Digital Logic,
+                    ASIC Design
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-number">02</div>
+                <h3>Hardware</h3>
+                <p>
+                    FPGA, ESP32, Embedded Systems, Microcontrollers,
+                    Digital Electronics
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-number">03</div>
+                <h3>PCB & EDA</h3>
+                <p>
+                    KiCad, EasyEDA, LTspice, PCB Design, Simulation,
+                    Circuit Analysis
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-number">04</div>
+                <h3>Development</h3>
+                <p>
+                    C/C++, Arduino, Git, GitHub, Hardware-Software
+                    Integration
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+
+        <div class="section-title">
+            <p>03</p>
+            <h2>Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <article class="project-card">
+
+                <div class="project-top">
+                    <span class="project-icon">⌁</span>
+
+                    <a href="https://github.com/kishankallur"
+                       target="_blank">
+                        GitHub ↗
+                    </a>
+                </div>
+
+                <p class="project-type">EMBEDDED / LoRa</p>
+
+                <h3>
+                    LoRa Thermal Telemetry
+                </h3>
+
+                <p>
+                    Real-time PT100 temperature monitoring using a
+                    MAX31865 and ESP32-S3 with LoRa communication.
+                    Implemented Callendar–Van Dusen conversion for
+                    resistance-to-temperature processing.
+                </p>
+
+                <div class="tech-stack">
+                    <span>ESP32-S3</span>
+                    <span>PT100</span>
+                    <span>MAX31865</span>
+                    <span>LoRa</span>
+                </div>
+
+            </article>
+
+
+            <!-- Project 2 -->
+            <article class="project-card">
+
+                <div class="project-top">
+                    <span class="project-icon">◈</span>
+
+                    <a href="https://github.com/kishankallur"
+                       target="_blank">
+                        GitHub ↗
+                    </a>
+                </div>
+
+                <p class="project-type">EMBEDDED / PCB</p>
+
+                <h3>
+                    OCP Meter
+                </h3>
+
+                <p>
+                    Precision Open Circuit Potential measurement system
+                    for real-time electrochemical monitoring with analog
+                    signal conditioning, ADC acquisition, digital
+                    filtering and OLED visualization.
+                </p>
+
+                <div class="tech-stack">
+                    <span>ESP32</span>
+                    <span>PCB</span>
+                    <span>ADC</span>
+                    <span>OLED</span>
+                </div>
+
+            </article>
+
+
+            <!-- Project 3 -->
+            <article class="project-card">
+
+                <div class="project-top">
+                    <span class="project-icon">▣</span>
+
+                    <a href="https://github.com/kishankallur"
+                       target="_blank">
+                        GitHub ↗
+                    </a>
+                </div>
+
+                <p class="project-type">VLSI / DIGITAL DESIGN</p>
+
+                <h3>
+                    RTL Design Projects
+                </h3>
+
+                <p>
+                    Collection of digital design projects developed using
+                    Verilog and SystemVerilog, focusing on RTL architecture,
+                    hardware modeling and verification.
+                </p>
+
+                <div class="tech-stack">
+                    <span>Verilog</span>
+                    <span>SystemVerilog</span>
+                    <span>RTL</span>
+                    <span>FPGA</span>
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Education -->
+    <section class="section">
+
+        <div class="section-title">
+            <p>04</p>
+            <h2>Education</h2>
+        </div>
+
+        <div class="education-card">
+
+            <div>
+                <p class="education-year">CURRENT</p>
+
+                <h3>
+                    B.Tech — VLSI Design & Technology
+                </h3>
+
+                <p>
+                    NMIT · Bengaluru, India
+                </p>
+            </div>
+
+            <div class="education-status">
+                3rd Year
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+
+        <p class="tag">05 — CONTACT</p>
+
+        <h2>
+            Let's build something
+            <span>interesting.</span>
+        </h2>
 
         <p>
-            Verilog • SystemVerilog • FPGA • ESP32 • Arduino •
-            PCB Design • KiCad • EasyEDA • LTspice
+            Interested in VLSI, digital hardware, embedded systems,
+            or semiconductor technology?
         </p>
+
+        <div class="contact-buttons">
+
+            <a href="https://github.com/kishankallur"
+               target="_blank"
+               class="btn primary">
+                GitHub ↗
+            </a>
+
+            <a href="https://www.linkedin.com/"
+               target="_blank"
+               class="btn secondary">
+                LinkedIn ↗
+            </a>
+
+        </div>
+
     </section>
 
-    <section>
-        <h2>Contact</h2>
+
+    <!-- Footer -->
+    <footer>
 
         <p>
-            GitHub: <a href="https://github.com/">GitHub</a>
+            © 2026 Kishan Kallur
         </p>
-    </section>
+
+        <p>
+            VLSI Design & Technology
+        </p>
+
+    </footer>
+
 
 </body>
 </html>
