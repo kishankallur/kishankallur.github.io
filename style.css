@@ -1,1 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
 
+header {
+    text-align: center;
+    padding: 60px 0;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
